@@ -17,7 +17,7 @@ describe('General', () => {
         console.log(tableArr);
         for (let i = 0; i < tableArr.length; i++) {
             expect(tableArr[i]).to.be.at.least(0);
-            expect(tableArr[i]).to.be.at.most(80);
+            expect(tableArr[i]).to.be.at.most(81);
         }
     });
 });

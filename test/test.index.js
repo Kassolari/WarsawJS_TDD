@@ -3,7 +3,7 @@
 const { expect } = require('chai');
 const { primeSum, sum, isPrime } = require('../src/index');
 
-describe('General', () => {
+describe.skip('General', () => {
     it('should work', () => {
         expect(primeSum([])).to.be.equal(0);
     });
@@ -15,7 +15,7 @@ describe('General', () => {
     });
 });
 
-describe('sum number in array', () => {
+describe.skip('sum number in array', () => {
     it('sum []', () => {
         expect(sum([])).to.be.equal(0);
     });
@@ -24,7 +24,7 @@ describe('sum number in array', () => {
     });
 });
 
-describe('check is prime ', () => {
+describe.skip('check is prime ', () => {
     it('isPrime 2', () => {
         expect(isPrime(2)).to.be.equal(true);
     });

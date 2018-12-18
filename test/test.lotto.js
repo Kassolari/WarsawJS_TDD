@@ -4,7 +4,7 @@ const { expect } = require('chai');
 
 const { lotto } = require('../src/lotto');
 
-describe('General', () => {
+describe.skip('General', () => {
     it('should be defined', () => {
         expect(typeof lotto).to.be.equal('function');
     });
